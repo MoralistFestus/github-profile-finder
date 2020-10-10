@@ -45,7 +45,7 @@ input::placeholder {
 }
 
 .avatar {
-  border: 10px solid #f7b733;
+  border: 10px solid rgb(0, 0, 255);
   border-radius: 50%;
   height: 150px;
   width: 150px;
