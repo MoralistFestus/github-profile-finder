@@ -42,6 +42,12 @@ input::placeholder {
   color: #bbb;
 }
 
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .card {
   background-color: #000;
   background-image: linear-gradient(315deg, #000000 0%, #000000 100%);
