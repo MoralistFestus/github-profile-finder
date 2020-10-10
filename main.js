@@ -50,9 +50,7 @@ function createUserCard(user) {
                   <li><strong>Following: </strong>${user.following}</li>
                   <li><strong>Repos: </strong>${user.public_repos}</li>
                   <li><strong>Twitter: </strong> ${user.twitter_username}</li>
-                  <li><strong>Starred: </strong>${user.starred_url}</li>
                   <li><strong>PublicGists: </strong>${user.public_gists}</li>
-                  <li><strong>Organization: </strong>${user.organizations_url}</li>
                   <li><strong>Company: </strong>${user.company}</li>
                   <li><strong>Location: </strong>${user.location}</li>
                   <li><strong>CreatedAt: </strong>${user.created_at}</li>
