@@ -34,10 +34,10 @@ input::placeholder {
 }
 
 .card {
-  background-color: #fc4a1a;
-  background-image: linear-gradient(315deg, #f7b733 0%, #fc4a1a 100%);
+  background-color: #000;
+  background-image: linear-gradient(315deg, #696969 0%, #696969 100%);
   border-radius: 20px;
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+  box-shadow: 0 5px 10px rgb(169,169,169),
       0 15px 40px rgba(0, 0, 0, 0.1);
   display: flex;
   padding: 3rem;
