@@ -68,8 +68,9 @@ function createUserCard(user) {
 
 // Prevent page from reloading or refreshing after submitting form
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const user = search.value;
+ // e.preventDefault();
+  e.returnValue = false;  
+ const user = search.value;
   if (user) {
       getUser(user);
       search.value = "";
