@@ -5,39 +5,80 @@
 }
 
 body {
-  background: #000;
+  background-color: #f6f8fa;
   background: linear-gradient(to right, #000, #000); 
   display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", Inter, system, Roboto, Segoe UI, Arial, sans-serif;
+  color: #24292e;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
   margin: 0;
+  padding: 0;
   min-height: 100vh;
 }
 
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 30px;
-  color: #fff;
-  text-align: center;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 2;
+margin-bottom: 1rem;
+font-weight: 500;
+color: #fff;
+font-size: 25px;
+}
+
+p {
+line-height: 1.5;
+}
+
+a {
+-webkit-text-decoration: none;
+text-decoration: none;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+display: inline-block;
+}
+
+img {
+width: 100%;
+max-width: 100%;
+vertical-align: middle;
 }
 
 input {
-  background-color: #fff;
+  background-color: #26303c;
   border-radius: 10px;
   border: none;
-  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
-      0 15px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px -8px rgba(0,0,0);
+  -webkit-filter: contrast(1.25);
+  filter: contrast(1.25);
+  -webkit-transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
+  transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 0s;
   color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  -webkit-filter: none;
+  filter: none;
   text-align: center;
   font-family: inherit;
-  font-size: 0.8rem;
   font-weight: 800;
   padding: 1rem;
   margin-bottom: 2rem;
   width: 100%;
+  max-width: 600px;
+
 }
 
 input::placeholder {
@@ -47,14 +88,16 @@ input::placeholder {
 input:hover {
   color: rgba(0,0,0);
   font-size: 15px;
+  text-transform: lowercase;
 }
+
 
  i { 
     position: absolute; 
 }
 
 .icon { 
-    padding: 10px; 
+    padding: 8px; 
     color: rgb(0,0,0);
     min-width: 10px;
     font-size: 25px; 
@@ -88,8 +131,8 @@ input:hover {
 .github{
   border: 8px solid #d9d9d9;
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 
 .user-info {
