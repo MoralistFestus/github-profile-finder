@@ -31,7 +31,7 @@ function addReposToCard(repos) {
           repoEl.href = repo.html_url;
           repoEl.target = "_blank";
           repoEl.innerText = repo.name;
-          repoEl.innerText = repo.description;
+          //repoEl.innerText = repo.description;
           reposEl.appendChild(repoEl);
       });
 }
